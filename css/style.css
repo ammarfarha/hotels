@@ -1,0 +1,13 @@
+section{
+    /* border: 1px solid #000000; */
+}
+#navigation span{
+    color: blue;
+}
+.slid{
+    max-height: 500px;
+}
+.slid img{
+    height: 500px;
+    
+}
