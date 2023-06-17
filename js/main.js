@@ -31,9 +31,9 @@
 //document.getElementById("mydiv").innerHTML = x + y;
 
 let card1 = {
-    header:"My First Card", 
-    content:500, 
-    footer:"Card1"
+    header:"Abu Abdooooo", 
+    content:"ssdfsdfsdf sffsdf", 
+    footer:"Hello My Dears ..."
 };
 
 document.getElementById("car1-head").innerHTML = card1.header;
