@@ -67,3 +67,6 @@ const cards = [
         footer: "Card4"
     }
 ];
+
+
+//console.log(document.getElementById("tbl1").children);
