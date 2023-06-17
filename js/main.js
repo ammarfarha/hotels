@@ -70,3 +70,13 @@ const cards = [
 
 
 //console.log(document.getElementById("tbl1").children);
+
+const names = ["Ahmad", "Antone", "Maha"];
+const last_names = ["Yaser", "Loay", "Lolo"];
+
+document.getElementById("n1").innerHTML = names[0];
+document.getElementById("ln1").innerHTML = last_names[0];
+document.getElementById("n2").innerHTML =  names[1];
+document.getElementById("ln2").innerHTML = last_names[1];
+document.getElementById("n3").innerHTML =  names[2];
+document.getElementById("ln3").innerHTML = last_names[2];
