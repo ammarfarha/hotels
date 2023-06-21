@@ -12,6 +12,7 @@
   height: 50px;
   position: absolute;
   background-color: red;
+  /* border-radius: 25px; */
 }
 </style>
 <body>
@@ -28,9 +29,9 @@ function myMove() {
   const elem = document.getElementById("animate");   
   let pos = 0;
   clearInterval(id);
-  id = setInterval(frame, 5);
+  id = setInterval(frame, 3);
   function frame() {
-    if (pos == 350) {
+    if (pos == 400) {
       clearInterval(id);
     } else {
       pos++; 
