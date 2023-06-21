@@ -31,9 +31,9 @@
 //document.getElementById("mydiv").innerHTML = x + y;
 
 let card1 = {
-    header:"My First Card", 
-    content:500, 
-    footer:"Card1"
+    header:"Abu Abdooooo", 
+    content:"ssdfsdfsdf sffsdf", 
+    footer:"Hello My Dears ..."
 };
 
 document.getElementById("car1-head").innerHTML = card1.header;
@@ -67,3 +67,16 @@ const cards = [
         footer: "Card4"
     }
 ];
+
+
+//console.log(document.getElementById("tbl1").children);
+
+const names = ["Ahmad", "Antone", "Maha"];
+const last_names = ["Yaser", "Loay", "Lolo"];
+
+document.getElementById("n1").innerHTML = names[0];
+document.getElementById("ln1").innerHTML = last_names[0];
+document.getElementById("n2").innerHTML =  names[1];
+document.getElementById("ln2").innerHTML = last_names[1];
+document.getElementById("n3").innerHTML =  names[2];
+document.getElementById("ln3").innerHTML = last_names[2];
