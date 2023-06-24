@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
     <!-- <script src="https://code.jquery.com/jquery-3.7.0.js"></script> -->
+    <script src="js/jquery.com_jquery-3.7.0.js"></script>
     <title>JQuery Exapmles</title>
+
+    <!-- <script>
+        $("#mn").click(function(){
+                $("p").toggle();
+            });
+
+    </script> -->
     <script>
         $(document).ready(function(){
-        //     $("#hide").click(function(){
-        //         $("p").hide();
-        //     });
-        //     $("#show").click(function(){
-        //         $("p").show();
-        //     });
+            // $("#hide").click(function(){
+            //     $("p").toggle();
+            // });
+            // $("#show").click(function(){
+            //     $("p").show();
+            // });
 
         //     $("button").click(function(){
         //         $("#div1").fadeIn();
@@ -97,6 +105,10 @@
     </script>
 </head>
 <body>
+    <h1 id="title" style="border: 1px solid #000000;">FAQ</h1>
+    <div style="width: 100px; height: 100px; background-color: tomato; ;">
+        My text
+    </div>
     <!-- <p>If you click on the "Hide" button, I will disappear.</p>
     <button id="hide">Hide</button>
     <button id="show">Show</button>
@@ -121,9 +133,18 @@
     <div id="div2" style="width:80px;height:80px;background-color:green;"></div><br>
     <div id="div3" style="width:80px;height:80px;background-color:blue;"></div> -->
 
-    <div id="flip">Click to slide down panel</div>
-    <div id="panel">Hello world!</div>
+    <!-- <div id="flip">Click to slide down panel</div>
+    <div id="panel">Hello world!</div> -->
 
 
+        <script>
+           $("#title").click(function(){
+                var div = $("div");
+                div.animate({height: '300px', opacity: '0.4', fontSize: 'xx-large'}, 6000);
+                div.animate({width: '300px', opacity: '0.8', color:'while'}, 6000);
+                div.animate({height: '100px', opacity: '0.4', fontSize: 'xx-small'}, 6000);
+                div.animate({width: '100px', opacity: '0.8'}, 6000);
+            });
+        </script>
 </body>
 </html>
