@@ -1,4 +1,4 @@
-// ocument.getElementById(id)	Find an element by element id
+// document.getElementById(id)	Find an element by element id
 // document.getElementsByTagName(name)	Find elements by tag name
 // document.getElementsByClassName(name)	Find elements by class name
 
@@ -54,3 +54,27 @@
 
 // const x = document.getElementsByClassName("intro");
 // const x = document.querySelectorAll("p.intro");
+
+// let my_p = document.getElementsByTagName("div")[1].getElementsByTagName("p")[0];
+// my_p.style.color = "red";
+
+let my_div = document.getElementsByTagName("p")[0];
+my_div.classList.add("t1");
+my_div.classList.add("t2");
+my_div.classList.add("t3");
+my_div.classList.add("t4");
+my_div.classList.add("t5");
+
+// console.log(my_div.classList);
+
+// class elem{
+//     constructor(my_lement){
+//         let element = my_lement;
+//     }
+//     addClass(class_name){
+//         this.element.classList.add(class_name);
+//     }
+// }
+
+// let x1 = new elem(document.getElementsByTagName("div")[1]);
+// x1.addClass("t1");

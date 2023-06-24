@@ -33,10 +33,29 @@ class student{
         let birth_year = birth_date.getFullYear();
         return now_year - birth_year;
     }
+    get_name(){
+        return this.name;
+    }
+    set_name(name){
+        this.name = name;
+        return this;
+    }
+    set_last(last){
+        this.last = last;
+        return this;
+    }
+    set_birth_date(birth_date){
+        this.birth = birth_date;
+        return this;
+    }
 }
 
 const s1 = new student("Ahmad", "Yaser", "2000-01-01");
+
 document.getElementById("stu").innerHTML = s1.getFullName();
+s1.set_name("Mohammed").set_last("Tafique").set_birth_date("2009-01-01");
+
+document.getElementById("stu").innerHTML += s1.getFullName();
 document.getElementById("stu").innerHTML += s1.Age();
 
 

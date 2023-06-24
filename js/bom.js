@@ -1,6 +1,8 @@
 // window:
-// let w = window.innerWidth;
-// let h = window.innerHeight;
+ let w = window.innerWidth;
+ let h = window.innerHeight;
+ document.getElementById("bom").innerHTML = "width: " + w + "<br>";
+ document.getElementById("bom").innerHTML += "height: " + h+ "<br>";
 // window.open();
 // window.close();
 // window.moveTo();
@@ -37,7 +39,7 @@
 
 
 // Popup:
-// alert("I am an alert box!");
+//  alert("I am an alert box!");
 
 // if (confirm("Press a button!")) {
 //   txt = "You pressed OK!";
@@ -66,7 +68,7 @@
 
 // function myTimer() {
 //   const d = new Date();
-//   document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+//   document.getElementById("bom").innerHTML = d.toLocaleTimeString();
 // }
 
 
@@ -77,7 +79,7 @@
 //   let s = today.getSeconds();
 //   m = checkTime(m);
 //   s = checkTime(s);
-//   document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+//   document.getElementById('bom').innerHTML =  h + ":" + m + ":" + s;
 //   setTimeout(startTime, 1000);
 // }
 
@@ -86,7 +88,7 @@
 //   return i;
 // }
 
-
+// startTime();
 
 // cookie:
 // document.cookie = "username=Ammar";
